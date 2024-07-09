@@ -1,0 +1,33 @@
+<li class="l-section section">
+            <div class="hire">
+              <div class="contact--lockup">
+                <div class="modal">
+                  <div class="modal--information">
+                    
+                  <p>Work Experience</p>
+                  </div>
+                  <!-- <ul class="modal--options">
+                    <ul>
+                    <li>Information Technology Intern @ Yes Securities India Ltd </li>
+                    May 2024 - Present
+                    <li>Volunteer @ Being Animal Foundation </li>
+                    May 2022 - June 2022
+                  </ul> -->
+                  <div>
+                  <br>
+                  Information Technology Intern @ Yes Securities India Ltd
+                  <br>
+                  May 2024 - Present
+                  <br><br><br>
+                  Volunteer @ Being Animal Foundation
+                  <br>
+                  May 2022 - June 2022
+                  <br>
+                </div>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="hire">
