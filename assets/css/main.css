@@ -54,7 +54,9 @@ menu,
 nav,
 section,
 summary {
-    display: block
+    /* display: block */
+    display: flex;
+    flex-wrap: wrap;
 }
 
 audio,
@@ -331,9 +333,16 @@ body {
     z-index: 10
 }
 
-@media (max-width: 1180px) {
+/* @media (max-width: 1180px) {
     .l-side-nav {
         display: none
+    }
+} */
+
+@media (max-width: 767px) {
+    .l-wrapper, .intro, .work, .about, .contact--lockup {
+        width: 100% !important;
+        max-width: 100% !important;
     }
 }
 
