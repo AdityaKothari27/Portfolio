@@ -105,7 +105,7 @@ h1 {
 }
 
 mark {
-    background: #ff0;
+    background: rgba(64, 0, 255, 0);
     color: #000
 }
 
@@ -275,7 +275,7 @@ img::-moz-selection {
 }
 
 body {
-    -webkit-tap-highlight-color: #FFF498
+    -webkit-tap-highlight-color: #fff59800
 }
 
 body {
@@ -672,6 +672,9 @@ body {
 
 .side-nav li:nth-child(5)::before {
     content: "05"
+}
+.side-nav li:nth-child(6)::before {
+    content: "06"
 }
 
 .side-nav li.is-active {
