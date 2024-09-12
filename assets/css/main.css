@@ -657,26 +657,26 @@ body {
 }
 
 .side-nav li:nth-child(1)::before {
-    content: "01"
+    content: ""
 }
 
 .side-nav li:nth-child(2)::before {
-    content: "02"
+    content: ""
 }
 
 .side-nav li:nth-child(3)::before {
-    content: "03"
+    content: ""
 }
 
 .side-nav li:nth-child(4)::before {
-    content: "04"
+    content: ""
 }
 
 .side-nav li:nth-child(5)::before {
-    content: "05"
+    content: ""
 }
 .side-nav li:nth-child(6)::before {
-    content: "06"
+    content: ""
 }
 
 .side-nav li.is-active {
