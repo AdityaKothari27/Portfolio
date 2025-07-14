@@ -1,3 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 @charset "UTF-8";
 @font-face {
   font-family: "Montserrat";
@@ -1144,7 +1171,7 @@ body {
 .work-request--information input:focus + label,
 .work-request--information input.has-value + label {
   top: -15px;
-  font-size: 14px;
+  font-.size: 14px
 }
 
 @media (max-width: 767px) {
@@ -1301,5 +1328,3 @@ body {
 .outer-nav li.is-vis:nth-child(5) {
   transition-delay: 0.16s;
 }
-
-/*# sourceMappingURL=main.css.map */
