@@ -1,6 +1,7 @@
+"use client";
+
 import Header from './Header';
 import { ReactNode } from 'react';
-import { motion } from 'framer-motion';
 
 type Props = {
   children: ReactNode;
@@ -8,21 +9,12 @@ type Props = {
 
 const Layout = ({ children }: Props) => {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      className="perspective effect-rotate-left"
-    >
-      <div className="container">
-        <div id="viewport" className="l-viewport">
-          <div className="l-wrapper">
-            <Header />
-            {children}
-          </div>
-        </div>
-      </div>
-    </motion.div>
+    <div className="min-h-screen bg-background">
+      <Header />
+      <main className="pt-20">
+        {children}
+      </main>
+    </div>
   );
 };
 
