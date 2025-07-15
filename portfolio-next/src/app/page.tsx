@@ -1,3 +1,5 @@
+"use client";
+
 import Layout from '@/components/Layout';
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
